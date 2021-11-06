@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,402;1,300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display',
+  sans-serif;
+  
+}
+body{
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #DFE8FF;
+}
+/* .attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+} */
+.card-conteiner{
+  text-align: center;
+}
+.card{
+  max-width: 450px;
+  margin: 0px auto;
+  border-radius: 50px;
+  margin-top: 100px
+}
+.card__header{
+  overflow: hidden;
+  background: #FFFFFF;
+  border-bottom: 0px solid #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+}
+.card__main{
+  background: #FFFFFF;
+  border-radius: 0px 0px 20px 20px;
+
+  background-color: rgb(255, 255, 255);
+
+}
+.card__main__h1{
+  padding-top: 45px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.card__main__p{
+  padding-left: 70px;
+  padding-right: 70px;
+  color: #7F8698;
+  font-size: 16px;
+
+}
+.card__main__plan{
+background: #F8F9FE;
+margin-top: 35px;
+margin-left: 65px;
+margin-right: 65px;
+border-radius: 10px;
+height: 90px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.card__main__plan__text__h2{
+  font-size: 17px;
+  margin: 5px ;
+  font-weight: bolder;
+
+}
+.card__main__plan__text__h4{
+  color: #848BA5;
+}
+.card__main__plan__change{
+  color: rgb(79, 43, 241);
+  font-size: 14px;
+  font-weight: bolder;
+}
+.card__main__plan__change:hover{
+  color: #928CE6;
+}
+.card__main__btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 0px 0px 20px 20px;
+
+  /* background-color: rgb(79, 43, 241); */
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+.card__main__btn_pay {
+  font-size: 15px;
+  margin-top: 25px;
+  color: #FCF6FF;
+  background-color: #382AE1;
+  width: 320px;
+  height: 3rem;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 0px 19px 10px rgba(56, 42, 225,0.1);
+
+}
+.card__main__btn_pay:hover{
+  background-color: #776CF1;
+}
+.card__main__btn_cancel {
+  margin-top: 35px;
+  color: #788399;
+  width: 324px;
+  background-color: transparent;
+  border:none;
+  margin-bottom: 55px;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.card__main__btn_cancel:hover {
+  color: #181D3D;
+}
