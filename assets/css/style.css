@@ -11,6 +11,7 @@ body{
   background-image: url("../images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
   background-color: #DFE8FF;
+    background-size: cover;
 }
 /* .attribution {
     font-size: 11px;
